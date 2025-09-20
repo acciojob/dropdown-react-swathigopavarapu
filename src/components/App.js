@@ -119,6 +119,14 @@ const states = [
         ]
       },
       {
+		
+    name: "Nagaland",
+    description:
+      "Nagaland is a state in northeastern India known for its rich tribal culture and heritage.",
+    city: [
+		{
+
+		
         name: "Dimapur",
         description: "Dimapur is a city in Nagaland, India. It is the most populous city of Nagaland and also the most densely populated city in the state with an estimated population of about 250,000.",
         landmarks: [
@@ -147,7 +155,9 @@ const states = [
         ]
       }
     ]
-  },
+  }
+	]
+},
   {
     name: "Bihar",
     description: "Bihar is a state in East India, bordering Nepal. It is divided by the River Ganges, which floods its fertile plains. Important Buddhist pilgrimage sites include the Bodhi Tree in Bodhgaya's Mahabodhi Temple, under which the Buddha allegedly meditated.",
