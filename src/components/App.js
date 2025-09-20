@@ -76,7 +76,7 @@ const states = [
         landmarks: [
           {
             name: "Pandey muhalla",
-            description: "Located behind the Dhanbad junction is must visit place."
+            description: "Located behind the dhanbad junction is must visit place."
           },
           {
             name: "MPI Hall",
