@@ -13,13 +13,13 @@ const states = [
         landmarks: [
           {
             name: "Mhow",
-            description: "Dr. Ambedkar Nagar, commonly known as Mhow, is a cantonment in the Indore district in Madhya Pradesh state of India. It is located 23 kilometres south-west of Indore city, towards Mumbai on the old Mumbai-Agra Road.",
+            description: "Dr. Ambedkar Nagar, commonly known as Mhow, is a cantonment in the Indore district in Madhya Pradesh state of India. It is located 23 kilometres south-west of Indore city, towards Mumbai on the old Mumbai-Agra Road."
           },
           {
             name: "Dewas",
-            description: "Dewas is a city in the Malwa region of the Indian state of Madhya Pradesh. The municipality was formerly the seat of two princely states during the British Raj, Dewas Junior state and Dewas Senior state, ruled by the Puar clan of Maratha.",
-          },
-        ],
+            description: "Dewas is a city in the Malwa region of the Indian state of Madhya Pradesh. The municipality was formerly the seat of two princely states during the British Raj, Dewas Junior state and Dewas Senior state, ruled by the Puar clan of Maratha."
+          }
+        ]
       },
       {
         name: "Bhopal",
@@ -27,13 +27,13 @@ const states = [
         landmarks: [
           {
             name: "MANIT",
-            description: "Maulana Azad National Institute of Technology Bhopal is a public technical university located in Bhopal, Madhya Pradesh, India. It is part of a group of publicly funded institutions in India known as National Institutes of Technology.",
+            description: "Maulana Azad National Institute of Technology Bhopal is a public technical university located in Bhopal, Madhya Pradesh, India. It is part of a group of publicly funded institutions in India known as National Institutes of Technology."
           },
           {
             name: "Berasia",
-            description: "Berasia is a landmark and a nagar palika in Bhopal district in the state of Madhya Pradesh, India.",
-          },
-        ],
+            description: "Berasia is a landmark and a nagar palika in Bhopal district in the state of Madhya Pradesh, India."
+          }
+        ]
       },
       {
         name: "Gwalior",
@@ -41,11 +41,11 @@ const states = [
         landmarks: [
           {
             name: "Ajaypur",
-            description: "Little less known city Ajaypur.",
-          },
-        ],
-      },
-    ],
+            description: "Little less known city Ajaypur."
+          }
+        ]
+      }
+    ]
   },
   {
     name: "Jharkhand",
@@ -57,13 +57,13 @@ const states = [
         landmarks: [
           {
             name: "IIT(ISM) Dhanbad",
-            description: "Indian Institute of Technology (Indian School of Mines) Dhanbad is a public technical and research university located in Dhanbad, India. It is an Institute of National Importance. IIT has 18 academic departments covering Engineering.",
+            description: "Indian Institute of Technology (Indian School of Mines) Dhanbad is a public technical and research university located in Dhanbad, India. It is an Institute of National Importance. IIT has 18 academic departments covering Engineering."
           },
           {
             name: "Hirapur",
-            description: "Hirapur is a census landmark in Balaghat district in the Indian state of Madhya Pradesh.",
-          },
-        ],
+            description: "Hirapur is a census landmark in Balaghat district in the Indian state of Madhya Pradesh."
+          }
+        ]
       },
       {
         name: "Wasseypur",
@@ -71,13 +71,13 @@ const states = [
         landmarks: [
           {
             name: "Pandey muhalla",
-            description: "Located behind the Dhanbad junction is must visit place.",
+            description: "Located behind the Dhanbad junction is must visit place."
           },
           {
             name: "MPI Hall",
-            description: "Space for everyone",
-          },
-        ],
+            description: "Space for everyone"
+          }
+        ]
       },
       {
         name: "Hazaribagh",
@@ -85,45 +85,63 @@ const states = [
         landmarks: [
           {
             name: "Shaheed Nirmal Mahto Park",
-            description: "Famous for its giant dinosaur structure",
+            description: "Famous for its giant dinosaur structure"
           },
           {
             name: "Gandhi Maidan",
-            description: "Ideal for conduction major events",
-          },
-        ],
-      },
-    ],
+            description: "Ideal for conduction major events"
+          }
+        ]
+      }
+    ]
   },
   {
     name: "Assam",
     description: "Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations.",
     city: [
       {
-        name: "Guwahati",
+        name: "Guwhati",
         description: "Guwahati is a sprawling city beside the Brahmaputra River in the northeast Indian state of Assam. It's known for holy sites like the hilltop Kamakhya Temple.",
         landmarks: [
-          { name: "Ganesh Guri", description: "Famous because of PVR city center." },
-          { name: "Kalyani Nagar", description: "Located near famous Lakshmi Nagar." },
-        ],
+          {
+            name: "Ganesh Guri",
+            description: "Famous because of PVR city center."
+          },
+          {
+            name: "Kalyani Nagar",
+            description: "Located near famous Lakshmi Nagar."
+          }
+        ]
       },
       {
         name: "Dimapur",
         description: "Dimapur is a city in Nagaland, India. It is the most populous city of Nagaland and also the most densely populated city in the state with an estimated population of about 250,000.",
         landmarks: [
-          { name: "City Tower", description: "Giant Tower standing by the road since history." },
-          { name: "Sunday Market", description: "Famous for its weekend sale on all items." },
-        ],
+          {
+            name: "City Tower",
+            description: "Giant Tower standing by the road since history."
+          },
+          {
+            name: "Sunday Market",
+            description: "Famous for its weekend Sale on all items."
+          }
+        ]
       },
       {
         name: "Tezpur",
         description: "Tezpur is a landmark and urban agglomeration in Sonitpur district, Assam state, India. Tezpur is located on the banks of the river Brahmaputra, 175 kilometres northeast of Guwahati, and is the largest of the north bank landmarks with a population exceeding 100,000 as per Metropolitan Census 2011.",
         landmarks: [
-          { name: "Bamuni Hills", description: "Best location for photoshoots" },
-          { name: "Bhujkhowa Bazar", description: "Central market for Tezpur" },
-        ],
-      },
-    ],
+          {
+            name: "Bamuni Hills",
+            description: "Best location for photoshoots"
+          },
+          {
+            name: "Bhujkhowa Bazar",
+            description: "Central Market for Tezpur"
+          }
+        ]
+      }
+    ]
   },
   {
     name: "Bihar",
@@ -135,13 +153,13 @@ const states = [
         landmarks: [
           {
             name: "Sonpur",
-            description: "Sonpur is a city and sub-division in the Indian state of Bihar, situated on the banks of the River Gandak and Ganges River in the Saran District.",
+            description: "Sonpur is a city and sub-division in the Indian state of Bihar, situated on the banks of the River Gandak and Ganges River in the Saran District."
           },
           {
             name: "Maner",
-            description: "Maner also spelled Maner or Maner Sharif, is a satellite landmark in Patna Metropolitan Region, in the Patna district in the Indian state of Bihar. Maner Sharif lies 24 km west of Patna the capital of Bihar on National Highway 30.",
-          },
-        ],
+            description: "Maner also spelled Maner or Maner Sharif, is a satellite landmark in Patna Metropolitan Region, in the Patna district in the Indian state of Bihar. Maner Sharif lies 24 km west of Patna the capital of Bihar on National Highway 30."
+          }
+        ]
       },
       {
         name: "Gaya",
@@ -149,25 +167,32 @@ const states = [
         landmarks: [
           {
             name: "Bakraur",
-            description: "Bakraur, sometimes called Bakrour, is a village located slightly east of Bodh Gaya in the state of Bihar, India. It lies directly across the Phalgu River from the landmark of Bodh Gaya, where Gautama Buddha is said to have attained enlightenment.",
+            description: "Bakraur, sometimes called Bakrour, is a village located slightly east of Bodh Gaya in the state of Bihar, India. It lies directly across the Phalgu River from the landmark of Bodh Gaya, where Gautama Buddha is said to have attained enlightenment."
           },
           {
             name: "Barachatti",
-            description: "Barachatti is a block in the Gaya district of Bihar, India. Barachatti contains 141 villages and 13 gram panchayat. Sarwan bazar is the biggest and Nimi is the smallest village of Barachatti. The total population in Barachatti sub-district is 142,534 according to the census during 2011 by Indian Government.",
-          },
-        ],
+            description: "Barachatti is a block in the Gaya district of Bihar, India. Barachatti contains 141 villages and 13 gram panchayat. Sarwan bazar is the biggest and Nimi is the smallest village of Barachatti. The total population in Barachatti sub-district is 142,534 according to the census during 2011 by Indian Government."
+          }
+        ]
       },
       {
         name: "Darbhanga",
         description: "Darbhanga is a city and Municipal Corporation in the Indian state of Bihar. It is the 6th largest city of Bihar, only after Patna, Gaya, Bhagalpur, Muzaffarpur and Purnea. It is the headquarters of Darbhanga district and Darbhanga division and was the seat of the Raj Darbhanga and capital of the Mithila region.",
         landmarks: [
-          { name: "Singhwara", description: "Famous for its Groundnut Market" },
-          { name: "Jale", description: "Famous for its roasted seeds market." },
-        ],
-      },
-    ],
-  },
+          {
+            name: "Singhwara",
+            description: "Famous for its Groundnut Market"
+          },
+          {
+            name: "Jale",
+            description: "Famous for its roasted seads market."
+          }
+        ]
+      }
+    ]
+  }
 ];
+
 
 
 
