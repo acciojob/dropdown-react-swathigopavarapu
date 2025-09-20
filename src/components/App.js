@@ -138,11 +138,68 @@ const states = [{
 }];
 
 
-function App() 
-{
+
+function App() {
+	const [selectedStateIndex, setSelectedStateIndex] = useState(0);
+    const [selectedCityIndex, setSelectedCityIndex] = useState(0);
+    const [selectedLandmarkIndex, setSelectedLandmarkIndex] = useState(0);
+	
+	const handleStateChange = (e) => {
+		const stateIndex = parseInt(e.target.value);
+		setSelectedStateIndex(stateIndex);
+		setSelectedCityIndex(0);
+		setSelectedLandmarkIndex(0);
+	};
+
+    const handleCityChange = (e) => {
+		const cityIndex = parseInt(e.target.value);
+        setSelectedCityIndex(cityIndex);
+        setSelectedLandmarkIndex(0);
+	};
+    const handleLandmarkChange = (e) => {
+		const landmarkIndex = parseInt(e.target.value);
+		setSelectedLandmarkIndex(landmarkIndex);
+	};
+	  const currentState = states[selectedStateIndex];
+      const currentCity = currentState.city[selectedCityIndex];
+      const currentLandmark = currentCity.landmarks[selectedLandmarkIndex];
 	// Do not alter/remove main div
 	return (
 	<div id="main">
+		<h1>Dynamic Dropdowns</h1>
+		<select id="state" value={selectedStateIndex} onChange={handleStateChange}>
+        {states.map((state, index) => (
+          <option key={index} value={index}>
+            {state.name}
+          </option>
+        ))}
+      </select>
+	  <select id="city" value={selectedCityIndex} onChange={handleCityChange}>
+        {currentState.city.map((city, index) => (
+          <option key={index} value={index}>
+            {city.name}
+          </option>
+        ))}
+      </select>
+	  <select
+        id="landmark"
+        value={selectedLandmarkIndex}
+        onChange={handleLandmarkChange}
+      >
+        {currentCity.landmarks.map((landmark, index) => (
+          <option key={index} value={index}>
+            {landmark.name}
+          </option>
+        ))}
+      </select>
+	  <div id="state-name">State: {currentState.name}</div>
+      <div id="state-description">{currentState.description}</div>
+
+      <div id="city-name">City: {currentCity.name}</div>
+      <div id="city-description">{currentCity.description}</div>
+
+      <div id="landmark-name">Landmark: {currentLandmark.name}</div>
+      <div id="landmark-description">{currentLandmark.description}</div>
 		
 	</div>
 	);
