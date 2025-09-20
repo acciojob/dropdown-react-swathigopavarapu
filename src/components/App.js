@@ -47,7 +47,7 @@ const states = [
             description: "Little less known city Ajaypur."
           }
 
-		  
+
         ]
       }
     ]
@@ -62,7 +62,7 @@ const states = [
         landmarks: [
           {
             name: "IIT(ISM) Dhanbad",
-            description: "Indian Institute of Technology (Indian School of Mines) Dhanbad is a public technical and research university located in Dhanbad, India. It is an Institute of National Importance. IIT has 18 academic departments covering Engineering."
+            description: "Indian Institute of Technology (Indian School of Mines) Dhanbad is a public technical and research university located in Dhanbad, India. It is an Institute of National Importance. IIT has 18 academic departments covering Engineering,"
           },
           {
             name: "Hirapur",
