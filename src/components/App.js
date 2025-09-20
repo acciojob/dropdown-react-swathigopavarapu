@@ -106,7 +106,7 @@ const states = [
     city: [
       {
         name: "Guwhati",
-        description: "Guwahati is a sprawling city beside the Brahmaputra River in the northeast Indian state of Assam. It's known for holy sites like the hilltop Kamakhya Temple.",
+        description: "Guwahati is a sprawling city beside the Brahmaputra River in the northeast Indian state of Assam. It's known for holy sites like the hilltop Kamakhya Temple,",
         landmarks: [
           {
             name: "Ganesh Guri",
