@@ -114,7 +114,7 @@ const states = [
           },
           {
             name: "Kalyani Nagar",
-            description: "Located near famous Lakshmi Nagar."
+            description: "Located near famous Lakshmi Nagar"
           }
         ]
       },
