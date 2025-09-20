@@ -21,20 +21,20 @@ const states = [
           }
         ]
       },
-      {
-        name: "Bhopal",
-        description: "Bhopal is a city in the central Indian state of Madhya Pradesh. It's one of India's greenest cities. There are two main lakes, the Upper Lake and the Lower Lake.",
-        landmarks: [
-          {
-            name: "MANIT",
-            description: "Maulana Azad National Institute of Technology Bhopal is a public technical university located in Bhopal, Madhya Pradesh, India. It is part of a group of publicly funded institutions in India known as National Institutes of Technology."
-          },
-          {
-            name: "Berasia",
-            description: "Berasia is a landmark and a nagar palika in Bhopal district in the state of Madhya Pradesh, India."
-          }
-        ]
-      },
+	  {
+  name: "Bhopal",
+  description: "DBhopal is a city in the central Indian state of Madhya Pradesh. It's one of India's greenest city. There are two main lakes, the Upper Lake and the Lower Lake.",
+  landmarks: [
+    {
+      name: "MANIT",
+      description: "Maulana Azad National Institute of Technology Bhopal is a public technical university located in Bhopal, Madhya Pradesh, India. It is part of a group of publicly funded institutions in India known as National Institutes of Technology."
+    },
+    {
+      name: "Berasia",
+      description: "Berasia is a landmark and a nagar palika in Bhopal district in the state of Madhya Pradesh, India."
+    }
+  ]
+},
       {
         name: "Gwalior",
         description: "Gwalior is a city in the central Indian state of Madhya Pradesh. It's known for its palaces and temples, including the Sas Bahu Ka Mandir intricately carved Hindu temple.",
