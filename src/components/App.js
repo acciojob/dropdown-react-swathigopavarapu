@@ -102,7 +102,7 @@ const states = [
   },
   {
     name: "Assam",
-    description: "Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations.",
+    description: "Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations. ",
     city: [
       {
         name: "Guwhati",
