@@ -44,7 +44,7 @@ const states = [
         landmarks: [
           {
             name: "Ajaypur",
-            description: "Little less known city Ajaypur. "
+            description: "Little less known city Ajaypur."
           }
         ]
       }
