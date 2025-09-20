@@ -167,21 +167,25 @@ function App() {
 	return (
 	<div id="main">
 		<h1>Dynamic Dropdowns</h1>
-		<select id="state" value={selectedStateIndex} onChange={handleStateChange}>
-        {states.map((state, index) => (
-          <option key={index} value={index}>
-            {state.name}
-          </option>
-        ))}
-      </select>
-	  <select id="city" value={selectedCityIndex} onChange={handleCityChange}>
+		 <select id="state" value={selectedStateIndex} onChange={handleStateChange}>
+			 {states.map((state, index) => (
+				<option key={index} value={index}>
+					{state.name}
+				</option>
+			 ))}
+			 </select>
+
+      {/* City Dropdown */}
+      <select id="city" value={selectedCityIndex} onChange={handleCityChange}>
         {currentState.city.map((city, index) => (
           <option key={index} value={index}>
             {city.name}
           </option>
         ))}
       </select>
-	  <select
+
+      {/* Landmark Dropdown */}
+      <select
         id="landmark"
         value={selectedLandmarkIndex}
         onChange={handleLandmarkChange}
@@ -192,13 +196,15 @@ function App() {
           </option>
         ))}
       </select>
-	  <div id="state-name">State: {currentState.name}</div>
+
+      {/* Display details with IDs matching Cypress test */}
+      <div id="state-title">{currentState.name}</div>
       <div id="state-description">{currentState.description}</div>
 
-      <div id="city-name">City: {currentCity.name}</div>
+      <div id="city-title">{currentCity.name}</div>
       <div id="city-description">{currentCity.description}</div>
 
-      <div id="landmark-name">Landmark: {currentLandmark.name}</div>
+      <div id="landmark-title">{currentLandmark.name}</div>
       <div id="landmark-description">{currentLandmark.description}</div>
 		
 	</div>
